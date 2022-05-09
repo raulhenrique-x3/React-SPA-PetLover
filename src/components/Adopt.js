@@ -14,7 +14,7 @@ import adopt from "../styles/adopt.css"
                         clicando no botão abaixo!
                     </h3>
                     
-                    <button className="toForm"><Link to="/Form">Formulário!</Link></button>
+                    <Link to="/Form"><button className="toForm">Formulário!</button></Link>
                 </div>
             </div>
         )

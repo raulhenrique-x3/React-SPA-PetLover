@@ -1,0 +1,41 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e0e4cc;
+}
+
+.formSect h1{
+    text-align: center;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formQuests{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formQuests p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.formQuests input{
+    padding: 18px;
+    margin: 18px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 1px 1px rgb(0, 0, 0, 0.4);
+}
+
+.subButton{
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fa6900;
+    box-shadow: 0 0 5px #000000;
+    cursor: pointer;
+}
