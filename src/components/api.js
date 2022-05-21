@@ -1,6 +1,10 @@
 import axios from "axios";
 
-    const api = axios.create({
+    export const api = axios.create({
         baseURL:"https://api.thedogapi.com",
     });
-export default api;
+
+    export const apiCep = axios.create({
+        baseURL:"https://viacep.com.br/ws/",
+    });
+

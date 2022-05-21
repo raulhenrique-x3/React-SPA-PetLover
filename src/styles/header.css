@@ -42,3 +42,23 @@
     cursor: pointer;
     margin-left: 18px;
   }
+
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+
+    .Header{
+      width: 100%;
+    }
+
+    .Header h1{
+      font-size: 1rem;
+    }
+
+    .Header ul{
+      display: none;
+    }
+
+
+
+  }
+  
+  

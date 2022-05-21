@@ -1,9 +1,10 @@
 import React from "react";
 import {FaPaw, FaUserCircle} from "react-icons/fa"
 import { Link } from "react-router-dom";
-import header from "../styles/header.css"
+import "../styles/header.css"
 
 function Header(){
+
     return(
         <div className="Header">
             <h1>

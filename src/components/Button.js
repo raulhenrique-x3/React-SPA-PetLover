@@ -2,7 +2,7 @@ import React from "react";
 
     function Button(){
         return(
-            <button type="submit" className="subButton">Próxima</button>
+            <button type="submit" name="submit" className="subButton">Acessar!</button>
         )
     }
     

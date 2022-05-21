@@ -1,6 +1,6 @@
 import React from "react";
 import {FaPaw} from "react-icons/fa"
-import NotFound from "../styles/notFound.css"
+import "../styles/notFound.css"
 
     function About(){
         return(

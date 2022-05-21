@@ -2,7 +2,7 @@
 .adoptBox{
     height: 90vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #e0e4cc;
     padding: 18px;
@@ -13,9 +13,9 @@ li{
     list-style-type: none;
 }
 
-.cat1{
-    width: 300px;
-    height: 100%;
+.randomImgs{
+    width: 30vw;
+    height: 40vh;
     box-shadow: 0 0 10px #0000001a;
 }
 
@@ -33,19 +33,27 @@ li{
 }
 
 .adoptItems h2{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
+    color: #fa6900;
 }
 
 .adoptItems h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    
 }
+
+.adoptItems h2, h3{
+    text-shadow: 1px 1px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .adoptItems button{
     padding: 18px;
     border-radius: 5px;
     border: none;
+    color: #ffffff;
     background-color: #fa6900;
     box-shadow: 0 0 5px #000000;
 }

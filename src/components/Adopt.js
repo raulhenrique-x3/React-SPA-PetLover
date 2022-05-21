@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import adopt from "../styles/adopt.css"
-import api from "./api";
+import {FaHeart} from "react-icons/fa"
+import Button from "./Button";
+import "../styles/adopt.css"
+import {api} from "./api";
 
     function Adopt(){
 
@@ -19,22 +21,22 @@ import api from "./api";
         return(
             <div className="adoptBox">
                 <ul>
-                    {dogImg.map((setDogImage, index)=>(
+                    {dogImg.map((setDogImage)=>(
                         <li key={setDogImage.id}>
-                            <img src={setDogImage.url} alt={setDogImage.name} className="cat1"/>
+                            <img src={setDogImage.url} alt={setDogImage.name} className="randomImgs"/>
                         </li>
                     ))}
                 </ul>
                 
 
                 <div className="adoptItems">
-                    <h2>Deseja adotar um animal?</h2>
+                    <h2>Deseja adotar um amor? <FaHeart/></h2>
                     
                     <h3>Responda nosso formulário de adoção
                         clicando no botão abaixo!
                     </h3>
                     
-                    <Link to="/Form"><button className="toForm">Formulário!</button></Link>
+                    <Link to="/Form"><Button className="toForm">Formulário!</Button></Link>
                 </div>
             </div>
         )
