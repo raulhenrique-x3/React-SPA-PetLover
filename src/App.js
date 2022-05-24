@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='app'>
     <BrowserRouter>
-    <Header/>
+    <Header />
       <Routes>
         <Route path='/' exact element={<Home/>} />
         <Route path='/Form' element={<Form/>}/>

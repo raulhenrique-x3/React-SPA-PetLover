@@ -1,12 +1,12 @@
 import React from "react";
-import {FaPaw, FaUserCircle} from "react-icons/fa"
+import {FaPaw} from "react-icons/fa"
 import { Link } from "react-router-dom";
 import "../styles/header.css"
 
 function Header(){
 
     return(
-        <div className="Header">
+        <div className="header">
             <h1>
                 PetLover
                 <FaPaw className={"faPaw"}/>
@@ -15,11 +15,8 @@ function Header(){
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/About">Sobre nós</Link></li>
-                <li><Link to="/Adopt">Adote</Link></li>
-                <li>Login ou cadastro</li>
-                <FaUserCircle className={"faUser"}/>
+                <li><Link to="/Adopt">Adotar</Link></li>
             </ul>
-            
         </div>
     )
 }

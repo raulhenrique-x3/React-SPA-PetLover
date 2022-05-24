@@ -1,12 +1,12 @@
 
 .adoptBox{
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #e0e4cc;
     padding: 18px;
-    
 }
 
 li{
@@ -14,17 +14,17 @@ li{
 }
 
 .randomImgs{
-    width: 30vw;
-    height: 40vh;
+    width: 40vw;
+    height: 50%;
     box-shadow: 0 0 10px #0000001a;
 }
 
 .adoptItems{
-    width: 30%;
-    height: 80vh;
+    width: 50%;
+    height: 60%;
     background-color: #a7dbd8;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 0 10px #0000001a;
@@ -33,12 +33,12 @@ li{
 }
 
 .adoptItems h2{
-    font-size: 2rem;
+    font-size: 4rem;
     color: #fa6900;
 }
 
 .adoptItems h3{
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #ffffff;
     
 }
@@ -50,7 +50,9 @@ li{
 
 
 .adoptItems button{
-    padding: 18px;
+    top: 0;
+    font-size: 2rem;
+    padding: 36px;
     border-radius: 5px;
     border: none;
     color: #ffffff;
@@ -58,8 +60,25 @@ li{
     box-shadow: 0 0 5px #000000;
 }
 
-.adoptItems button:hover{
-    padding: 20px;
-    cursor: pointer;
-    transition: ease 0.3s;
+
+@media screen and (min-width: 1024px){
+
+    .adoptItems{
+        width: 40%;
+        height: 85vh;
+    }
+
+    .adoptItems h2{
+        font-size: 2rem;
+    }
+    
+    .adoptItems h3{
+        font-size: 1rem;
+    }
+
+    .adoptItems button{
+        padding: 18px;
+        font-size: small;
+    }
+
 }

@@ -61,9 +61,6 @@ import { routes } from "../const/routes";
                                 </label>
                             </div>
 
-                            
-                                <button type="submit" name="submit"  className="nextButton">Próxima</button>
-                            
                             <div className="form2Quest">
                                 <label>
                                     <p>Número para contato</p>
@@ -89,7 +86,7 @@ import { routes } from "../const/routes";
                                     <p style={{color:"red", fontSize:"0.8rem"}}>{errors.age && "Campo obrigatório!"}</p>
                                 </label>
                             </div>
-                            
+                            <button type="submit" name="submit"  className="nextButton">Próxima</button>
                         </form>
 
                     </section>

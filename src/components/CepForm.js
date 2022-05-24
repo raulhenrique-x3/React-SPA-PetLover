@@ -102,11 +102,6 @@ import { routes } from "../const/routes";
                             </label>
                         </div>
 
-                            <button
-                                type="submit" 
-                                name="submit" 
-                                className="nextButton">Próxima</button>
-
                         <div className="form2Quest">
                             <label>
                                 Complemento:
@@ -167,7 +162,10 @@ import { routes } from "../const/routes";
                             </label>
 
                         </div>
-                        
+                        <button
+                                type="submit" 
+                                name="submit" 
+                                className="nextButton">Próxima</button>
                     </form>
 
                 </section>
