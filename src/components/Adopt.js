@@ -36,7 +36,7 @@ import {api} from "./api";
                         clicando no botão abaixo!
                     </h3>
                     
-                    <Link to="/Form"><Button className="toForm">Formulário!</Button></Link>
+                    <Link to="/Form"><button type="submit" name="submit" className="subButton">Formulário!</button></Link>
                 </div>
             </div>
         )

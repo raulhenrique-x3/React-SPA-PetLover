@@ -1,24 +1,15 @@
 .verifSect{
     width: 100%;
-    height: 90vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0e4cc;
-
 }
 
 .verifSect h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: clamp(32px, 5vw, 42px);
     color: #fa6900;
     text-shadow: 0 1px 1px #000000
-}
-
-@media screen and (min-width: 1024px) {
-    
-    .verifSect h1{
-        font-size: 2rem;
-    }
 }

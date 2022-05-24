@@ -37,7 +37,6 @@ import { routes } from "../const/routes";
 
                             <div className="form2Quest">
                                 <label>
-                                    <p>Nome completo</p>
                                     <br/>
                                     <input  
                                             {...register("fullName")}
@@ -49,7 +48,6 @@ import { routes } from "../const/routes";
                                 </label>
                                 
                                 <label>
-                                    <p>Email</p>
                                     <br/>
                                     <input  
                                             {...register("email")}
@@ -57,13 +55,12 @@ import { routes } from "../const/routes";
                                             type={"text"} 
                                             placeholder={"exemplo@outlook.com"}
                                             />
-                                    <p style={{color:"red", fontSize:"0.8rem"}}>{errors.email?.type === 'required' && "Campo obrigatório!"}</p>
+                                    <p style={{color:"red", fontSize:"1rem"}}>{errors.email?.type === 'required' && "Campo obrigatório!"}</p>
                                 </label>
                             </div>
 
                             <div className="form2Quest">
                                 <label>
-                                    <p>Número para contato</p>
                                     <br/>
                                     <input
                                             {...register("number")}
@@ -71,11 +68,10 @@ import { routes } from "../const/routes";
                                             type={"tel"} 
                                             placeholder={"(DDD)987654321"}
                                             />
-                                    <p style={{color:"red", fontSize:"0.8rem"}}>{errors.number && "Campo obrigatório!"}</p>
+                                    <p style={{color:"red", fontSize:"1rem"}}>{errors.number && "Campo obrigatório!"}</p>
                                 </label>
 
                                 <label>
-                                    <p>Idade</p>
                                     <br/>
                                     <input
                                             {...register("age")}
@@ -83,7 +79,7 @@ import { routes } from "../const/routes";
                                             type={"number"}
                                             placeholder={"Maior que 18"}
                                             />
-                                    <p style={{color:"red", fontSize:"0.8rem"}}>{errors.age && "Campo obrigatório!"}</p>
+                                    <p style={{color:"red", fontSize:"1rem"}}>{errors.age && "Campo obrigatório!"}</p>
                                 </label>
                             </div>
                             <button type="submit" name="submit"  className="nextButton">Próxima</button>

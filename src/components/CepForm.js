@@ -45,9 +45,9 @@ import { routes } from "../const/routes";
                 <section className="formSect">
                     <h1>FORMULÁRIO PARA ADOÇÃO</h1>
                     <form className="formQuests" onSubmit={handleSubmit(onSubmit)}>
+                        <h2>Endereço</h2>
                         <div className="form2Quest">
                             <label>
-                                CEP:
                                 <br/>
                                 <input 
                                         {...register("cep")}
@@ -63,7 +63,6 @@ import { routes } from "../const/routes";
                             </label>
 
                             <label>
-                                Rua:
                                 <br/>
                                 <input 
                                         {...register("rua")}
@@ -79,7 +78,6 @@ import { routes } from "../const/routes";
                         
 
                             <label>
-                                Bairro:
                                 <br/>
                                 <input 
                                         {...register("bairro")}
@@ -92,7 +90,6 @@ import { routes } from "../const/routes";
                             </label>
 
                             <label>
-                                Referência:
                                 <br/>
                                 <input
                                         {...register("ref")}
@@ -104,7 +101,6 @@ import { routes } from "../const/routes";
 
                         <div className="form2Quest">
                             <label>
-                                Complemento:
                                 <br/>
                                 <input 
                                         {...register("complemento")}
@@ -118,7 +114,6 @@ import { routes } from "../const/routes";
                             </label>
 
                             <label>
-                                Número da residência:
                                 <br/>
                                 <input 
                                         {...register("resnum")}
@@ -134,7 +129,6 @@ import { routes } from "../const/routes";
 
 
                             <label>
-                                Cidade:
                                 <br/>
                                 <input 
                                         {...register("cidade")}
@@ -148,7 +142,6 @@ import { routes } from "../const/routes";
                             </label>
 
                             <label>
-                                Estado:
                                 <br/>
                                 <input 
                                         {...register("estado")}
