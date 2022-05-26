@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {FaHeart} from "react-icons/fa"
-import Button from "./Button";
 import "../styles/adopt.css"
 import {api} from "./api";
 
